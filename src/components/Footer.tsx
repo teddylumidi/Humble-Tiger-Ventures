@@ -1,6 +1,7 @@
 import { useState, FormEvent } from "react";
 import { Youtube, Mail, Zap, Check, ArrowUpRight, Award, Facebook, Instagram } from "lucide-react";
 import { useLanguage } from "../LanguageContext";
+import logoImg from "../assets/images/logo.png";
 
 const TikTokIcon = ({ className }: { className?: string }) => (
   <svg className={className} fill="currentColor" viewBox="0 0 24 24">
@@ -86,7 +87,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="flex items-center gap-3">
             {!logoErr ? (
               <img
-                src="/assets/images/logo.png"
+                src={logoImg}
                 alt="Humble Tiger Ventures Logo"
                 onError={() => setLogoErr(true)}
                 className="h-10 w-auto object-contain border border-brand-orange/10 p-0.5 bg-black"

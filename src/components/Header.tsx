@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Flame, Menu, X, Youtube, Award, Video, Facebook, Instagram } from "lucide-react";
 import { useLanguage } from "../LanguageContext";
+import logoImg from "../assets/images/logo.png";
 
 const TikTokIcon = ({ className = "w-4 h-4" }) => (
   <svg className={className} fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -60,7 +61,7 @@ export default function Header({ activeTab, setActiveTab }: HeaderProps) {
           <div className="relative w-11 h-11 flex items-center justify-center bg-zinc-950 border-2 border-brand-orange rounded-full overflow-hidden group-hover:scale-105 transition-transform duration-300 shadow-[0_0_15px_rgba(255,106,0,0.15)]">
             {!logoError ? (
               <img
-                src="/assets/images/logo.png"
+                src={logoImg}
                 alt="Humble Tiger Logo"
                 className="w-full h-full object-cover scale-105"
                 onError={() => setLogoError(true)}
