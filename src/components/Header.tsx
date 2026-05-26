@@ -60,7 +60,7 @@ export default function Header({ activeTab, setActiveTab }: HeaderProps) {
           <div className="relative w-11 h-11 flex items-center justify-center bg-zinc-950 border-2 border-brand-orange rounded-full overflow-hidden group-hover:scale-105 transition-transform duration-300 shadow-[0_0_15px_rgba(255,106,0,0.15)]">
             {!logoError ? (
               <img
-                src="/src/assets/images/attached_logo_1779810126505.png"
+                src="/src/assets/images/logo.png"
                 alt="Humble Tiger Logo"
                 className="w-full h-full object-cover scale-105"
                 onError={() => setLogoError(true)}

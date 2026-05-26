@@ -131,26 +131,18 @@ export default function Hero({ onNavigate, onScrollToElement }: HeroProps) {
         </div>
 
         {/* PERFORMANCE STATS STATISTICAL DISPLAY */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-12 w-full max-w-5xl pt-10 border-t border-zinc-900 text-center" id="hero-counters">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-12 w-full max-w-5xl pt-10 border-t border-zinc-900 text-center" id="hero-counters">
           <div className="group cursor-default">
             <div className="font-sports text-4xl sm:text-5xl text-brand-orange font-bold">
-              35+
+              15
             </div>
             <div className="text-[10px] font-mono tracking-widest text-zinc-400 uppercase mt-1 group-hover:text-white transition-colors">
-              ATHLETES BRANDED
-            </div>
-          </div>
-          <div className="group cursor-default">
-            <div className="font-sports text-4xl sm:text-5xl text-white font-bold group-hover:text-brand-gold transition-colors">
-              $4.5M+
-            </div>
-            <div className="text-[10px] font-mono tracking-widest text-zinc-400 uppercase mt-1 group-hover:text-white transition-colors">
-              SPONSORSHIPS ACTIVATED
+              ATHLETE BRANDED
             </div>
           </div>
           <div className="group cursor-default">
             <div className="font-sports text-4xl sm:text-5xl text-brand-gold font-bold">
-              150+
+              30
             </div>
             <div className="text-[10px] font-mono tracking-widest text-zinc-400 uppercase mt-1 group-hover:text-white transition-colors">
               CLUBS & SCHOOLS IMPACTED
@@ -158,10 +150,10 @@ export default function Hero({ onNavigate, onScrollToElement }: HeroProps) {
           </div>
           <div className="group cursor-default">
             <div className="font-sports text-4xl sm:text-5xl text-white font-bold group-hover:text-brand-orange transition-colors">
-              22M+
+              1.2M+
             </div>
             <div className="text-[10px] font-mono tracking-widest text-zinc-400 uppercase mt-1 group-hover:text-white transition-colors">
-              MEDIA REACH / READERS
+              MEDIA REACH
             </div>
           </div>
         </div>
