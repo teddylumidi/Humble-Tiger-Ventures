@@ -2,12 +2,12 @@ import { Shield, Sparkles, Award, Trophy, Target, Dumbbell } from "lucide-react"
 
 export default function Partners() {
   const brands = [
-    { name: "SAHEL UNITED FC", icon: <Shield className="w-5 h-5" /> },
-    { name: "LAGOS BEASTS", icon: <Target className="w-5 h-5" /> },
-    { name: "EAST RUGBY FEDERATION", icon: <Award className="w-5 h-5" /> },
-    { name: "OASIS ACTIVE DRINKS", icon: <Sparkles className="w-5 h-5" /> },
-    { name: "METRO SPORT ARENAS", icon: <Trophy className="w-5 h-5" /> },
-    { name: "SIYA RUGBY ACADEMY", icon: <Dumbbell className="w-5 h-5" /> }
+    { name: "SHINNY FC", icon: <Shield className="w-5 h-5" /> },
+    { name: "BOGIAKUMU FC", icon: <Target className="w-5 h-5" /> },
+    { name: "BOMACHOGE BORABU FC", icon: <Award className="w-5 h-5" /> },
+    { name: "LAFONTANA INT SCHOOL", icon: <Sparkles className="w-5 h-5" /> },
+    { name: "CAFINA INT SCHOOL", icon: <Trophy className="w-5 h-5" /> },
+    { name: "KENYAN SPORTS FEDERATION", icon: <Dumbbell className="w-5 h-5" /> }
   ];
 
   return (

@@ -1,5 +1,5 @@
 import { useState, FormEvent } from "react";
-import { MessageCircle, Youtube, Mail, Zap, Check, ArrowUpRight, Award, Facebook, Instagram } from "lucide-react";
+import { Youtube, Mail, Zap, Check, ArrowUpRight, Award, Facebook, Instagram } from "lucide-react";
 import { useLanguage } from "../LanguageContext";
 
 const TikTokIcon = ({ className }: { className?: string }) => (
@@ -86,7 +86,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="flex items-center gap-3">
             {!logoErr ? (
               <img
-                src="/src/assets/images/attached_logo_1779810126505.png"
+                src="/src/assets/images/logo.jpg"
                 alt="Humble Tiger Ventures Logo"
                 onError={() => setLogoErr(true)}
                 className="h-10 w-auto object-contain border border-brand-orange/10 p-0.5 bg-black"
@@ -105,43 +105,27 @@ export default function Footer({ onNavigate }: FooterProps) {
 
           <p className="text-xs text-zinc-400 leading-relaxed font-sans max-w-sm">
             {lang === "en" 
-              ? "Humble Tiger Ventures is a premium sports branding agency, sponsorship activation partner, and athletics media storytelling platform across African and global markets."
-              : "Humble Tiger Ventures na proper heavy sports branding squad, media powerhouse, and brand money connector across Africa and Europe."}
+              ? "Humble Tiger Ventures Kenya - Elite sports branding agency partnering with Kenyan athletes, clubs, and schools to build championship legacies across East Africa."
+              : "Humble Tiger Ventures Kenya - Sports branding powerhouse supporting Kenyan athletic excellence with professional media, sponsorship activation, and world-class athlete development."}
           </p>
 
-          <div className="flex items-center gap-4 pt-2 text-zinc-500 text-xs font-mono">
-            <a
-              href="https://www.tiktok.com/@humbletigerventures27?_r=1&_t=ZS-96gY6TgXIge"
-              target="_blank"
-              rel="noopener noreferrer"
-              referrerPolicy="no-referrer"
-              className="hover:text-brand-orange transition-colors uppercase font-bold flex items-center gap-1"
-              title="TikTok"
-            >
-              <TikTokIcon className="w-4 h-4 text-black bg-zinc-400 group-hover:bg-brand-orange p-0.5 rounded-full inline" /> TikTok
-            </a>
-            <span>•</span>
-            <a
-              href="https://www.youtube.com/@Humbletigerventures"
-              target="_blank"
-              rel="noopener noreferrer"
-              referrerPolicy="no-referrer"
-              className="hover:text-brand-orange transition-colors flex items-center gap-1 uppercase font-bold"
-              title="YouTube"
-            >
-              <Youtube className="w-3.5 h-3.5 text-red-500" /> YouTube
-            </a>
-            <span>•</span>
-            <a
-              href="https://www.facebook.com/profile.php?id=61554904394245"
-              target="_blank"
-              rel="noopener noreferrer"
-              referrerPolicy="no-referrer"
-              className="hover:text-brand-orange transition-colors uppercase font-bold flex items-center gap-1"
-              title="Facebook"
-            >
-              <Facebook className="w-3.5 h-3.5 text-blue-500" /> Facebook
-            </a>
+          <div className="flex flex-col gap-3 pt-2 text-zinc-400 text-xs font-mono">
+            <div className="flex items-center gap-2">
+              <span className="text-brand-orange font-bold">📞</span>
+              <a href="tel:+254729542982" className="hover:text-brand-orange transition-colors uppercase font-bold">
+                +254729542982
+              </a>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-brand-orange font-bold">📧</span>
+              <a href="mailto:humbletigerventures27@gmail.com" className="hover:text-brand-orange transition-colors">
+                humbletigerventures27@gmail.com
+              </a>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="text-brand-orange font-bold">📍</span>
+              <span className="uppercase">Nairobi, Kenya</span>
+            </div>
           </div>
         </div>
 
@@ -234,20 +218,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         </div>
       </div>
 
-      {/* 4. OVERLAY FLOATING WHATSAPP INTERACTION SPOT */}
-      <a
-        href="https://wa.me/254712345678" // Sample WhatsApp direct endpoint
-        target="_blank"
-        rel="noopener noreferrer"
-        referrerPolicy="no-referrer"
-        className="fixed bottom-6 right-6 z-50 bg-lime-500 hover:bg-white text-black hover:text-lime-600 w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110 group cursor-pointer"
-        title="Connect with Humble Tiger Ventures on WhatsApp"
-        id="whatsapp-floating-gadget"
-      >
-        <MessageCircle className="w-7 h-7 fill-current stroke-[1.5px] group-hover:scale-105 transition-all" />
-        <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-600 rounded-full animate-ping"></span>
-        <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-600 rounded-full"></span>
-      </a>
+      {/* 4. WHATSAPP WIDGET IS HANDLED BY WHATSAPPCHAT COMPONENT */}
 
     </footer>
   );

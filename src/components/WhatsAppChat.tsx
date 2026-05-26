@@ -13,7 +13,7 @@ export default function WhatsAppChat() {
 
   const phoneNumber = "254729542982";
   const defaultText = encodeURIComponent(
-    "Hello Humble Tiger Ventures, I'm interested in sports branding & partnership possibilities!"
+    "Hello Humble Tiger Ventures Kenya! I'm interested in sports branding, athlete development, and partnership opportunities!"
   );
 
   const handleSendMessage = (e: React.FormEvent) => {
@@ -51,7 +51,7 @@ export default function WhatsAppChat() {
               </div>
               <div>
                 <h4 className="text-xs font-mono font-black text-white uppercase tracking-widest leading-none">
-                  Tiger Tech Support
+                  HTV KENYA SUPPORT
                 </h4>
                 <div className="flex items-center gap-1 text-[10px] text-zinc-500 font-mono tracking-wider mt-1">
                   <MapPin className="w-3 h-3 text-brand-orange" /> Nairobi, Kenya
@@ -71,10 +71,13 @@ export default function WhatsAppChat() {
           <div className="p-5 space-y-4 max-h-72 overflow-y-auto bg-black/80">
             <div className="bg-zinc-900 p-3.5 border-l-4 border-emerald-500 rounded-sm relative">
               <span className="block text-[8px] font-mono tracking-widest text-[#25D366] font-extrabold uppercase mb-1">
-                OFFICIAL HOTLINE • +254 729 542 982
+                HTV KENYA HOTLINE • +254729542982
               </span>
               <p className="text-xs text-zinc-300 leading-relaxed font-sans">
-                Habari! Welcome to Humble Tiger Ventures. Connect with our primary operational board based in <strong>Nairobi, Kenya</strong>. How can we level-up your game today?
+                Habari! Welcome to Humble Tiger Ventures Kenya. Connect with our team based in Nairobi. Branding. Athlete development. Club partnerships. Let's elevate Kenyan sports excellence.
+              </p>
+              <p className="text-[9px] text-zinc-400 mt-2 font-mono">
+                📧 humbletigerventures27@gmail.com
               </p>
               <span className="block text-[8px] font-mono text-zinc-500 text-right mt-1.5 uppercase font-bold">
                 100% Secure Direct Encryption

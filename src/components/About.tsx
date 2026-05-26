@@ -35,22 +35,22 @@ export default function About() {
             </div>
             
             <h2 className="font-sports text-4xl sm:text-6xl tracking-widest text-white leading-none uppercase">
-              WE DON'T MANAGE ATHLETES. <br />
-              <span className="text-brand-orange">WE BUILD LEGACIES.</span>
+              ELITE KENYAN SPORTS<br />
+              <span className="text-brand-orange\">START HERE.</span>
             </h2>
 
             <div className="space-y-4 text-zinc-300 font-sans text-sm sm:text-base tracking-wide max-w-lg leading-relaxed">
-              <p className="font-bold text-white border-l-4 border-brand-orange pl-4">
-                Traditional sports marketing is lazy. We are here to smash the status quo.
+              <p className="font-bold text-white border-l-4 border-brand-orange pl-4\">
+                Kenya's sports talent deserves world-class branding and professional excellence.
               </p>
               <p>
-                Humble Tiger Ventures was born out of aggressive ambition. We represent the speed, power, and prestige of African sports. 
+                Humble Tiger Ventures is built for Kenyan athletes, schools, and clubs who refuse to settle for mediocre representation.
               </p>
               <p>
-                From elite professional leagues to high school rugby pitches, we believe every athletic drop of sweat deserves cinematic documentation and corporate serious investment.
+                From grassroots football academies to elite championship tournaments, we deliver cinematic documentation, strategic branding, and corporate-grade sponsorship activation across East Africa.
               </p>
               <p>
-                No corporate fluff. No lazy logos. Just pure, story-driven physical excellence backed by high conversion digital architecture.
+                15 athletes branded. 30 clubs and schools impacted. 1.2M+ media reach. This is Kenyan excellence amplified.
               </p>
             </div>
           </div>

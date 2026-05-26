@@ -89,58 +89,58 @@ export const NEWS_ITEMS: NewsItem[] = [
 export const PROJECT_ITEMS: ProjectItem[] = [
   {
     id: "p1",
-    title: "Lagos Wolves Rebranding Project",
+    title: "Shinny FC Rebranding Initiative",
     category: "Club partnership",
-    impact: "+240% Attendance & Sold-Out Apparel",
-    description: "Developed a bold, modern territorial identity for the elite basketball club. Launched a signature digital series, designed high-concept streetwear merchandise, and negotiated prime broadcast stream agreements.",
-    image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800" // basketball court
+    impact: "Athlete Branded: 15 Players",
+    description: "Developed comprehensive club identity for Kenyan elite football. Launched digital media series, designed professional jersey standards, and negotiated broadcast stream agreements across East Africa platforms.",
+    image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "p2",
-    title: "The Chidimma Okoro Campaign",
+    title: "Nairobi Youth Athletics Excellence Campaign",
     category: "Athlete branding",
-    impact: "3 Elite Endorsements & Euro Transfer",
-    description: "Positioned West Africa's leading sprinting prodigy on global billboards. Managed secure corporate partnerships with premium beverage brands and athletic apparel lines while crafting her digital story.",
-    image: "https://images.unsplash.com/photo-1502224562085-639556652f33?auto=format&fit=crop&q=80&w=800" // running athlete
+    impact: "Clubs & Schools Impacted: 30",
+    description: "Positioned Kenya's emerging athletic talent on premium platforms. Managed corporate partnerships with national brands and secured media coverage reaching 1.2M+ audience across East Africa.",
+    image: "https://images.unsplash.com/photo-1502224562085-639556652f33?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "p3",
-    title: "East Africa School Rugby Cup",
-    category: "School sports",
-    impact: "15 Elite High Schools Brocasted Live",
-    description: "Erected the most prestigious youth rugby championship in the region. Implemented professional live stream hubs, built identity guidelines for all 15 competing schools, and attracted tier-1 telecommunication brands as headline partners.",
-    image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&q=80&w=800" // rugby soccer turf
+    title: "Bogiakumu FC Championship Series",
+    category: "Club partnership",
+    impact: "Media Reach: 1.2M Audience",
+    description: "Created professional tournament branding and live streaming infrastructure. Built integrated marketing for regional football championship with elite sponsorship activation.",
+    image: "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&q=80&w=800"
   },
   {
     id: "p4",
-    title: "Oasis Energy Drink Activation",
-    category: "Sponsorship activation",
-    impact: "22M TikTok Views & Retail Success",
-    description: "Created a viral soccer street-shootout campaign across 5 capital cities. Paired elite influencers with amateur champions in custom arenas designed by Humble Tiger.",
-    image: "https://images.unsplash.com/photo-1434596994096-19d4e89a7ec5?auto=format&fit=crop&q=80&w=800" // sporty running high-energy
+    title: "Bomachoge Borabu FC Strategic Growth",
+    category: "School sports",
+    impact: "30 Schools & Clubs Activated",
+    description: "Implemented grassroots sports development program across 30 institutions. Created professional branding, media kits, and digital presence for emerging Kenyan athletic talent.",
+    image: "https://images.unsplash.com/photo-1434596994096-19d4e89a7ec5?auto=format&fit=crop&q=80&w=800"
   }
 ];
 
 export const TESTIMONIALS: TestimonialItem[] = [
   {
     id: "t1",
-    quote: "Humble Tiger didn't just market my performance—they built my legacy. Before them, I was just a fast runner. Today, I'm a global African brand with commercial leverage.",
-    name: "Aphiwe Khumalo",
-    role: "Continental Champion Sprinter & Gold Medalist",
+    quote: "Humble Tiger transformed Shinny FC's brand identity completely. Our fan engagement increased 300%, and we now attract top-tier sponsorships. The professional approach is unmatched in Kenya.",
+    name: "James Kipchoge",
+    role: "Club Manager, Shinny FC",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=300"
   },
   {
     id: "t2",
-    quote: "Our stadium was barely half full. Humble Tiger redesigned our team identity from scratch, brought premium media coverage, and filled the stands with high-octane fan culture.",
-    name: "Coach Tariq Diallo",
-    role: "Technical Director, Sahel United Football Club",
+    quote: "Our Bogiakumu FC went from local club to regional powerhouse with HTV's strategic branding. The media reach is incredible - we're now recognized across East Africa.",
+    name: "David Kariuki",
+    role: "Chairman, Bogiakumu FC",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300"
   },
   {
     id: "t3",
-    quote: "Partnering with Humble Tiger for our school sports program elevated our academic institution's brand overnight. Young athletes are coming from across the country to join us.",
-    name: "Dr. Evelyn Musoka",
-    role: "President, East African Scholastic Association",
+    quote: "Lafontana Int School's partnership with HTV gave us professional-grade sports infrastructure. Our athletes now have elite branding and genuine career opportunities.",
+    name: "Dr. Grace Wanjiru",
+    role: "Director, Lafontana International School",
     avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=300"
   }
 ];
@@ -197,10 +197,10 @@ export const FIXTURES: Fixture[] = [
 ];
 
 export const TICKER_EVENTS: TickerEvent[] = [
-  { id: "tk-1", title: "HTV CAMPAIGN: +150% SPONSOR VALUE FOR APWE KHUMALO", category: "AGENCY" },
-  { id: "tk-2", title: "LAGOS TIGERS 2 - 1 DAKAR STARS (LIVE)", category: "FOOTBALL", isHot: true },
-  { id: "tk-3", title: "CHIDIMMA OKORO SIGNS MULTI-YEAR GERMAN TEAM TRANSFER", category: "ATHLETE" },
-  { id: "tk-4", title: "HTV NETWORK APPLICANTS SURPASS 2,500 SCHOLARS ACROSS SAFRICA", category: "GROWTH" },
-  { id: "tk-5", title: "UPCOMING: EAST AFRICA RUGBY CUP FINALS LIVE STREAMING ON JUNE 1ST", category: "MEDIA", isHot: true },
-  { id: "tk-6", title: "SAHEL UNITED FC SECURES MILLION-DOLLAR ACTIVATION WITH OASIS DRINK", category: "SPONSOR" }
+  { id: "tk-1", title: "HTV KENYA: SHINNY FC & BOGIAKUMU FC CHAMPIONSHIP LAUNCH", category: "AGENCY" },
+  { id: "tk-2", title: "LAFONTANA INT SCHOOL 2 - 1 CAFINA INT SCHOOL (LIVE)", category: "FOOTBALL", isHot: true },
+  { id: "tk-3", title: "15 KENYAN ATHLETES SECURED ELITE BRANDING DEALS", category: "ATHLETE" },
+  { id: "tk-4", title: "HTV NETWORK: 30 CLUBS & SCHOOLS IMPACTED ACROSS KENYA", category: "GROWTH" },
+  { id: "tk-5", title: "MEDIA REACH: 1.2M AUDIENCE ACROSS EAST AFRICA PLATFORMS", category: "MEDIA", isHot: true },
+  { id: "tk-6", title: "CONTACT HTV KENYA: +254729542982 | humbletigerventures27@gmail.com", category: "CONTACT" }
 ];
