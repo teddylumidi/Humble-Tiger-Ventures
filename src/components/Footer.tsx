@@ -86,7 +86,7 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div className="flex items-center gap-3">
             {!logoErr ? (
               <img
-                src="/src/assets/images/logo.png"
+                src="/assets/images/logo.png"
                 alt="Humble Tiger Ventures Logo"
                 onError={() => setLogoErr(true)}
                 className="h-10 w-auto object-contain border border-brand-orange/10 p-0.5 bg-black"
