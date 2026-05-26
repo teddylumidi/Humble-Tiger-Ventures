@@ -1,0 +1,6 @@
+{
+  "name": "Humble Tiger Ventures",
+  "description": "Premium sports branding agency and media storytelling platform in Africa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
