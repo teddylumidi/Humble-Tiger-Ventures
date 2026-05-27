@@ -7,6 +7,8 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
+import SportsFocus from "./components/SportsFocus";
+import Pricing from "./components/Pricing";
 import LiveStream from "./components/LiveStream";
 import RegistrationForm from "./components/RegistrationForm";
 import NewsFeed from "./components/NewsFeed";
@@ -56,7 +58,13 @@ export default function App() {
       <Ticker />
 
       {/* HEADER NAVIGATION */}
-      <Header activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Header activeTab={activeTab} setActiveTab={(tab: string) => {
+        if (tab === "packages") {
+          scrollToElement("pricing-section");
+        } else {
+          setActiveTab(tab);
+        }
+      }} />
 
       {/* MAIN LAYOUT CANVAS */}
       <main className="flex-grow">
@@ -80,6 +88,12 @@ export default function App() {
 
               {/* CORE SERVICES GRID */}
               <Services />
+
+              {/* SPORTS FOCUS AREAS */}
+              <SportsFocus />
+
+              {/* PACKAGES & PRICING */}
+              <Pricing />
 
               {/* RESULTS CASE PORTFOLIO */}
               <Portfolio />

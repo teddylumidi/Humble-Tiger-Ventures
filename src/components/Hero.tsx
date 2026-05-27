@@ -100,60 +100,74 @@ export default function Hero({ onNavigate, onScrollToElement }: HeroProps) {
             HUMBLE TIGER VENTURES // SPORTS ELITE
           </span>
           <span className="font-sports text-5xl sm:text-7xl md:text-8xl mt-1 tracking-wider text-white uppercase block leading-none font-bold">
-            BUILDING THE FUTURE OF <br />
+            BUILDING SPORTS BRANDS. <br />
             <span className="bg-gradient-to-r from-brand-orange via-white to-brand-gold bg-clip-text text-transparent italic select-none">
-              SPORTS BRANDING
-            </span> IN AFRICA
+              ELEVATING ATHLETES.
+            </span> <br />GROWING AFRICAN SPORTS.
           </span>
         </h1>
 
         {/* EDITORIAL SUBTEXT */}
         <p className="max-w-2xl text-zinc-400 text-sm sm:text-base font-normal mb-10 tracking-wide">
-          Sports branding. Athlete identity. Sponsorship activation. Sports storytelling. <br className="hidden sm:inline" />
-          Connecting premium African talent to global capital markets.
+          Humble Tiger Ventures is a sports branding, media, marketing, PR, and athlete management agency helping athletes, teams, schools, and coaches grow visibility, attract sponsorships, and unlock global opportunities.
         </p>
 
         {/* PRIMARY AND SECONDARY ACTIONS */}
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center w-full max-w-md mb-16" id="hero-actions">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 justify-center w-full max-w-2xl mb-16" id="hero-actions">
           <button
             onClick={() => onNavigate("register")}
             className="px-8 py-4 bg-brand-orange hover:bg-white text-black font-extrabold text-xs uppercase tracking-widest transition-all duration-300 transform active:scale-95 shadow-lg shadow-brand-orange/20 [clip-path:polygon(0_0,95%_0,100%_100%,5%_100%)]"
           >
-            JOIN HUMBLE TIGER NETWORK
+            WORK WITH US
           </button>
-          
+
+          <button
+            onClick={() => onScrollToElement("pricing-section")}
+            className="px-8 py-4 bg-zinc-950 border border-brand-gold/40 hover:border-brand-gold text-brand-gold hover:text-white font-extrabold text-xs uppercase tracking-widest transition-all duration-300 [clip-path:polygon(0_0,95%_0,100%_100%,5%_100%)]"
+          >
+            VIEW PACKAGES
+          </button>
+
           <button
             onClick={() => onNavigate("portfolio")}
             className="px-8 py-4 bg-zinc-950 border border-zinc-800 hover:border-zinc-300 text-white font-extrabold text-xs uppercase tracking-widest transition-all duration-300 [clip-path:polygon(0_0,95%_0,100%_100%,5%_100%)]"
           >
-            EXPLORE OUR WORK
+            BECOME A PARTNER
           </button>
         </div>
 
         {/* PERFORMANCE STATS STATISTICAL DISPLAY */}
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-12 w-full max-w-5xl pt-10 border-t border-zinc-900 text-center" id="hero-counters">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10 w-full max-w-5xl pt-10 border-t border-zinc-900 text-center" id="hero-counters">
           <div className="group cursor-default">
             <div className="font-sports text-4xl sm:text-5xl text-brand-orange font-bold">
-              15
+              500+
             </div>
             <div className="text-[10px] font-mono tracking-widest text-zinc-400 uppercase mt-1 group-hover:text-white transition-colors">
-              ATHLETE BRANDED
+              ATHLETES PROMOTED
             </div>
           </div>
           <div className="group cursor-default">
             <div className="font-sports text-4xl sm:text-5xl text-brand-gold font-bold">
-              30
+              100+
             </div>
             <div className="text-[10px] font-mono tracking-widest text-zinc-400 uppercase mt-1 group-hover:text-white transition-colors">
-              CLUBS & SCHOOLS IMPACTED
+              SPORTS CAMPAIGNS
             </div>
           </div>
           <div className="group cursor-default">
             <div className="font-sports text-4xl sm:text-5xl text-white font-bold group-hover:text-brand-orange transition-colors">
-              1.2M+
+              50+
             </div>
             <div className="text-[10px] font-mono tracking-widest text-zinc-400 uppercase mt-1 group-hover:text-white transition-colors">
-              MEDIA REACH
+              TEAMS & SCHOOLS SUPPORTED
+            </div>
+          </div>
+          <div className="group cursor-default">
+            <div className="font-sports text-4xl sm:text-5xl text-emerald-400 font-bold group-hover:text-brand-orange transition-colors">
+              M+
+            </div>
+            <div className="text-[10px] font-mono tracking-widest text-zinc-400 uppercase mt-1 group-hover:text-white transition-colors">
+              DIGITAL REACH
             </div>
           </div>
         </div>

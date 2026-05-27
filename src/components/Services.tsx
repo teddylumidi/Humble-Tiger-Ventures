@@ -11,7 +11,10 @@ import {
   ArrowUpRight,
   Sparkles,
   ChevronRight,
-  X
+  X,
+  Newspaper,
+  Tv,
+  Heart,
 } from "lucide-react";
 
 export default function Services() {
@@ -34,6 +37,12 @@ export default function Services() {
         return <Megaphone className="w-6 h-6 text-brand-orange" />;
       case "school-sports":
         return <GraduationCap className="w-6 h-6 text-brand-orange" />;
+      case "pr-management":
+        return <Newspaper className="w-6 h-6 text-brand-orange" />;
+      case "media-rights":
+        return <Tv className="w-6 h-6 text-brand-orange" />;
+      case "fan-engagement":
+        return <Heart className="w-6 h-6 text-brand-orange" />;
       default:
         return <Sparkles className="w-6 h-6 text-brand-orange" />;
     }
@@ -53,7 +62,7 @@ export default function Services() {
             </h2>
           </div>
           <p className="max-w-md text-sm text-zinc-400 mt-4 md:mt-0 font-sans tracking-wide">
-            We deliver targeted commercial amplification across seven distinct athletic and scholastic channels. Click any segment to review details.
+            We deliver targeted commercial amplification across ten distinct athletic and scholastic channels. Click any segment to review details.
           </p>
         </div>
 
