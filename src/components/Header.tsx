@@ -32,6 +32,7 @@ export default function Header({ activeTab, setActiveTab }: HeaderProps) {
     { id: "home", label: t("navHome") },
     { id: "news", label: t("navNews") },
     { id: "portfolio", label: t("navCampaigns") },
+    { id: "packages", label: "PACKAGES" },
     { id: "live", label: t("navLive"), highlight: true },
   ];
 

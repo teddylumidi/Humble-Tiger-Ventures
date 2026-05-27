@@ -42,6 +42,24 @@ export const SERVICES: ServiceItem[] = [
     title: "School Sports Branding Programs",
     description: "Empowering scholastic leagues with professional-grade media kits, uniforms, and digital networks.",
     details: "Creating the grassroots heroes of tomorrow by elevating university and high-school sports structures to elite status."
+  },
+  {
+    id: "pr-management",
+    title: "Public Relations & Image Management",
+    description: "Strategic media relations, crisis communication, and reputation management for athletes, coaches, and sports organizations.",
+    details: "We protect and amplify your public image through proactive storytelling, press coverage management, and 24/7 crisis response protocols."
+  },
+  {
+    id: "media-rights",
+    title: "Media Rights & Commercial Deals",
+    description: "Broadcast partnerships, licensing negotiations, and commercial deal structuring for sports properties and athletes.",
+    details: "We unlock revenue streams through strategic media rights packaging, broadcast deal negotiation, and commercial licensing across continental and international markets."
+  },
+  {
+    id: "fan-engagement",
+    title: "Fan Engagement & Community Growth",
+    description: "Building passionate fan communities through digital platforms, membership systems, and immersive fan experiences.",
+    details: "We design loyalty programs, launch digital communities, and create unforgettable match-day and digital fan experiences that drive long-term retention and revenue."
   }
 ];
 
